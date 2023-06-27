@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%vh;
+}
+
+main {
+    display: block;
+    align-items: center;
+    margin-top: 5rem;
+}
+
+section h1 {
+    margin-bottom: 1rem;
+}
+
+form input{
+    display: flex;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    border: 2px solid #2a728e;
+}
+button {
+    border: none;
+    cursor: pointer;
+    background-color: #304878;
+    color: #fff;
+    padding: 1rem 2rem;
+}
+
+button:hover {
+    background-color: #2a728e;
+}
+
